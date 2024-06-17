@@ -48,8 +48,14 @@ let user = {
 let user1 = user
 console.log(user1.email);
 user1.email = "ram@gmail.com"
-console.log(user1.email);
-console.log(user.email);
+user1 = {
+    name:"pravesh",
+
+    phone:98789
+}
+console.log(user1)
+// console.log(user1.email);
+// console.log(user.email);
 
 
 
