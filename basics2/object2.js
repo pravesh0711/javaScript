@@ -1,4 +1,4 @@
-// const insta = new Object()
+const insta = new Object()
 // const insta = {}
 
 
@@ -24,6 +24,7 @@ const obj2 = {3:"B",4:"C"}
 
 const obj3 = {...obj1,...obj2}
 // console.log(obj1)
+// console.log(obj2)
 // console.log(obj3)
 
 const user2 = [
@@ -46,5 +47,5 @@ const user2 = [
 
 
 // console.log(user);
-// console.log(Object.entries(user))
+console.log(Object.entries(user))
 console.log(user.hasOwnProperty('email'))

@@ -9,14 +9,14 @@ const gameName = new String(`Pra-vesh`)
 
 // console.log(typeof gameName)
 // console.log(gameName[0]);
-// console.log(gameName.__proto__) type   out put{}
 // console.log(gameName.__proto__)
-// console.log(gameName.toUpperCase());    to upper  
+// console.log(gameName.__proto__)
+// // console.log(gameName.toUpperCase());    to upper  
 // console.log(gameName.charAt(3));  
 // console.log(gameName.indexOf('e'))
 
 
-const  newString = gameName.substring(0,4);
+// const  newString = gameName.substring(0,7); stary index ans length
 // console.log(newString)
 
 const anotherSting  = gameName.slice(-8,4);
@@ -24,10 +24,10 @@ const anotherSting  = gameName.slice(-8,4);
 
 
 const s =  "  pravesh   "
-// console.log(s);
+console.log(s);
 
 const ns = s.trim()
-// console.log(ns)
+console.log(ns)
 
 
 const url = "pravesh.com"
@@ -36,7 +36,7 @@ const url = "pravesh.com"
 
 // console.log(url.includes('com'))
 
-// console.log(url.split('.')) [ 'pravesh', 'com' ]
+// console.log(url.split('.')) 
 
 
 

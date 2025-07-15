@@ -4,7 +4,9 @@ score = "Hello"
 // console.log(score)
 
 const id = Symbol("123")
-const anotherId = Symbol("123")
+// const anotherId = Symbol("123") 
+// always return unique Symbol
+
 // console.log(id === anotherId)
 
 
@@ -15,17 +17,21 @@ let obj ={
 // console.log(obj)
 
 const value = null
-const BigNum = 238383747828278478728728n
+const f = null
+const BigNum = 2383837478282784787287282n
+
+// console.log(BigNum)
 
 
 const fn = function(){
-    console.log("Hello pravesh")
+    // console.log("Hello pravesh")
+    // console.log("131")
 }
 // console.log(typeof fn)
-// fn()
+fn()
 
 
-// console.table([typeof id, typeof anotherId, typeof fn, typeof score,typeof obj, typeof  value,typeof BigNum])
+// console.table([typeof id, typeof anotherId, typeof fn, typeof score,typeof obj, typeof  value,typeof  f,typeof BigNum])
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\\\
@@ -33,9 +39,9 @@ const fn = function(){
 
 let Name = "pravesh"
 
-// let nName = Name
+let nName = Name
 // console.log(nName);
-// nName = "Ram Ram"
+nName = "Ram Ram"
 
 // console.log(Name)
 // console.log(nName)
@@ -47,15 +53,17 @@ let user = {
 
 let user1 = user
 console.log(user1.email);
+console.log(user.email);
 user1.email = "ram@gmail.com"
+//  This modifies the shared object — now both user and user1 have email: "ram@gmail.com".
 user1 = {
-    name:"pravesh",
+    name:"ram",
 
     phone:98789
 }
 console.log(user1)
-// console.log(user1.email);
-// console.log(user.email);
+console.log(user1.email);
+console.log(user.email);
 
 
 

@@ -7,7 +7,8 @@ email = "k@gmail.com"
 password = "324234"
 city = "bang"
 let accountStatue  
+
 // output undefined
-// accountId = 3; not aalow
+// accountId = 3; not allow
 console.log(accountId)
 console.table([accountId,email,password,city,accountStatue])
